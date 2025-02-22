@@ -1,0 +1,17 @@
+{
+  "name": "spaced-rewrite",
+  "version": "1.0.0",
+  "description": "Rewrite is just for fun, seeing how ive improved over the past 2 years.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+}
