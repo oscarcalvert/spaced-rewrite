@@ -9,7 +9,10 @@ const app = express()
 app.use(express.static(webroot))
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(webroot, "template.html"))
+    res.sendFile(path.join(webroot, "index.html"))
+})
+app.get("/home", (req, res) => {
+    res.sendFile(path.join(webroot, "index.html"))
 })
 
 app.listen(PORT, () => {
